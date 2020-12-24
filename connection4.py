@@ -16,9 +16,9 @@ while True:
     val=-5
     while not(0<=val and val<4):
         try:
-            val=int(input("1 ile 4 arasında sayı seç : "))-1
+            val=int(input("Choose numbers between 1 and 4:"))-1
             if not(0<=val and val<4):
-                print("Hatalı deger.!")
+                print("Wrong value.!")
         except:
             print("Hatalı deger.!")
     control=-1
