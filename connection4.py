@@ -20,7 +20,7 @@ while True:
             if not(0<=val and val<4):
                 print("Wrong value.!")
         except:
-            print("Hatalı deger.!")
+            print("Wrong value.!")
     control=-1
     for i in matrix:
         if i[val]=="A" or i[val]=="B":
